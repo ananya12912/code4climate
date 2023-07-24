@@ -20,3 +20,28 @@ It is recommended that you try using markdown yourself, too. At least for this p
 To get you started, [here's a cheatsheet on Markdown (md)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 Ananya: codespace didn't work
+
+print ('Hello World')
+print("what is the weather like?")
+
+name=input("what is your name? \n")\
+
+print("Hello!",name)
+
+a = 40
+b = 100
+
+if b > a:
+  print("b is greater than a")
+  
+def main():
+	x,y =8,4
+	
+	if(x < y):
+		st= "x is less than y"
+	else:
+		st= "x is greater than y"
+	print (st)
+	
+if __name__ == "__main__":
+	main()
